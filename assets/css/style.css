@@ -1,14 +1,14 @@
 @font-face {
   font-family: "BeVNBold";
-  src: url(/assets//fonts/BeVietnam-Bold.ttf);
+  src: url(../fonts/BeVietnam-Bold.ttf);
 }
 @font-face {
   font-family: "BeVN";
-  src: url(/assets//fonts/BeVietnam-Light.ttf);
+  src: url(../fonts/BeVietnam-Light.ttf);
 }
 @font-face {
   font-family: "BeVNMedium";
-  src: url(/assets//fonts/BeVietnam-Medium.ttf);
+  src: url(../fonts/BeVietnam-Medium.ttf);
 }
 /* Reset CSS */
 
