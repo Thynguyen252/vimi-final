@@ -26,6 +26,7 @@ body {
 html {
   font-family: "BeVN", sans-serif;
   color: #282828;
+  scroll-behavior: smooth;
 }
 
 h2 {
@@ -172,11 +173,16 @@ h5 {
 }
 
 .homepage-text {
+  width: 50%;
   color: #282828;
 }
 
 .homepage-text h1 {
   margin-bottom: 10rem;
+  font-size: 5rem;
+}
+.homepage-text h4 {
+  font-size: 3rem;
 }
 
 .about-container {
@@ -282,12 +288,19 @@ h3 {
   line-height: 2;
 }
 
+.card2-container {
+  margin-top: 50px;
+}
+
+.card2-container .card2:nth-child(2) {
+  padding: 50px 70px 100px;
+}
+
 .card2 {
   background-color: white;
-  margin: 0px 20px;
+  margin: 48px 20px 0px;
   border-radius: 30px;
   padding: 50px 100px 100px;
-  margin-top: 100px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -300,7 +313,7 @@ h3 {
 }
 
 .users-container img {
-  width: 30%;
+  width: 45%;
   margin-bottom: 1.5rem;
 }
 
@@ -353,7 +366,7 @@ h3 {
 
 .shop-container img {
   width: 150%;
-  margin: 3rem 0px 3rem -25%;
+  margin: 3rem 0px 0px -25%;
   height: 100%;
 }
 .button {
@@ -419,6 +432,11 @@ h3 {
 .long-input input:focus-visible {
   outline: none;
 }
+
+.submit-button-container {
+  margin: 150px 0 100px;
+}
+
 .icon {
   margin-top: 50px;
   margin-left: 50px;
@@ -497,6 +515,10 @@ span {
     padding: 1rem 1.5rem;
   }
 
+  .homepage-text {
+    width: 60%;
+  }
+
   .homepage-text h1 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
@@ -513,7 +535,16 @@ span {
     padding: 50px 30px;
   }
 
+  .card2-container {
+    margin-top: 0px;
+  }
+
+  .card2-container .card2:nth-child(2) {
+    padding: 50px 30px;
+  }
+
   .card2 {
+    margin: 48px 20px 0px;
     padding: 50px 30px;
   }
 
@@ -522,6 +553,7 @@ span {
   }
 
   .card-extra {
+    margin: 0px 20px 0px;
     padding: 40px;
   }
 
@@ -546,5 +578,24 @@ span {
 
   .card4 {
     padding: 50px 30px;
+  }
+
+  .contact-container .short-input:nth-child(1) {
+    margin-top: 10px;
+  }
+
+  .submit-button-container {
+    margin: 50px 0px 0px;
+  }
+
+  .mobile-button {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  #footer {
+    font-size: 0.5rem;
   }
 }
